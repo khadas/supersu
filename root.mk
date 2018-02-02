@@ -5,6 +5,7 @@ PRODUCT_COPY_FILES += \
 				vendor/amlogic/root/install-recovery.sh:system/etc/install-recovery.sh  \
 				vendor/amlogic/root/install-recovery.sh:system/bin/install-recovery.sh  \
 				vendor/amlogic/root/su:system/xbin/su \
+				vendor/amlogic/root/su:system/bin/su \
 				vendor/amlogic/root/su:system/bin/.ext/.su \
 				vendor/amlogic/root/su:system/xbin/daemonsu \
 			    vendor/amlogic/root/su:system/xbin/sugote \
