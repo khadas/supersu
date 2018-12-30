@@ -1,16 +1,13 @@
-PRODUCT_PACKAGES += \
-				 SuperSU
-
 PRODUCT_COPY_FILES += \
-				vendor/amlogic/root/install-recovery.sh:system/etc/install-recovery.sh  \
-				vendor/amlogic/root/install-recovery.sh:system/bin/install-recovery.sh  \
-				vendor/amlogic/root/su:system/xbin/su \
-				vendor/amlogic/root/su:system/bin/.ext/.su \
-				vendor/amlogic/root/su:system/xbin/daemonsu \
-			    vendor/amlogic/root/su:system/xbin/sugote \
-			    vendor/amlogic/root/supolicy:system/xbin/supolicy \
-			    vendor/amlogic/root/libsupol.so:system/lib/libsupol.so \
-				vendor/amlogic/root/libsupol.so:system/lib64/libsupol.so \
-			    vendor/amlogic/root/sugote-mksh:system/xbin/sugote-mksh \
-                vendor/amlogic/root/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
-			    vendor/amlogic/root/.installed_su_daemon:system/etc/.installed_su_daemon
+    vendor/rockchip/root/install-recovery.sh:system/etc/install-recovery.sh  \
+    vendor/rockchip/root/install-recovery.sh:system/bin/install-recovery.sh  \
+	vendor/rockchip/root/su:system/xbin/su \
+    vendor/rockchip/root/su:system/bin/.ext/.su \
+    vendor/rockchip/root/su:system/xbin/daemonsu \
+    vendor/rockchip/root/su:system/xbin/sugote \
+    vendor/rockchip/root/supolicy:system/xbin/supolicy \
+    vendor/rockchip/root/libsupol.so:system/lib/libsupol.so \
+    vendor/rockchip/root/libsupol.so:system/lib64/libsupol.so \
+    vendor/rockchip/root/sugote-mksh:system/xbin/sugote-mksh \
+    vendor/rockchip/root/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
+    vendor/rockchip/root/.installed_su_daemon:system/etc/.installed_su_daemon
