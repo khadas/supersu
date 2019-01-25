@@ -1,7 +1,8 @@
 PRODUCT_COPY_FILES += \
     vendor/rockchip/root/install-recovery.sh:system/etc/install-recovery.sh  \
     vendor/rockchip/root/install-recovery.sh:system/bin/install-recovery.sh  \
-	vendor/rockchip/root/su:system/xbin/su \
+	vendor/rockchip/root/su:system/etc/su_root \
+    vendor/rockchip/root/su_unroot:system/etc/su_unroot \
     vendor/rockchip/root/su:system/bin/.ext/.su \
     vendor/rockchip/root/su:system/xbin/daemonsu \
     vendor/rockchip/root/su:system/xbin/sugote \
