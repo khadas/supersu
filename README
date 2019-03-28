@@ -1,0 +1,9 @@
+                                       SuperSU for khadas
+
+About how to add root support on khadas VIMs SDK source code, You can follow the steps below
+
+一、VIMs board
+1. Modify the file 'PROJECT/device/khadas/kvim.mk' or 'PROJECT/device/khadas/kvim2.mk'
+<1> Change the property 'BUILD_WITH_ROOT_CONFIG' from false to true
+
+2. Build yourself ROM again
